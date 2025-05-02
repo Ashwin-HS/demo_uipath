@@ -4,7 +4,12 @@
   "description": "exploring uipath studio",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[25.2.1]"
+    "UiPath.Database.Activities": "[1.9.0]",
+    "UiPath.Excel.Activities": "[3.0.0-preview]",
+    "UiPath.Mail.Activities": "[1.22.1]",
+    "UiPath.PDF.Activities": "[3.22.1-preview]",
+    "UiPath.System.Activities": "[25.2.1]",
+    "UiPath.UIAutomation.Activities": "[25.2.1-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -40,7 +45,8 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "saveToCloud": false
+    "saveToCloud": false,
+    "cloudProjectUrl": "https://cloud.uipath.com:443/awsbhqcoxd/studio_/designer/59832f0a-04a3-4d6a-9470-dd276cc9b3ee"
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
